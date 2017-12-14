@@ -230,45 +230,45 @@ We are very proud to present the dropdown which has a subtle animation. We also 
 <div class="col-md-3">
 <div class="dropdown">
     <a href="#" class="btn btn-default dropdown-toggle " data-toggle="dropdown" id="navbarDropdownMenuLink2">
-        <img src="img/flags/US.png"> Flags
+        <img src="../assets/img/flags/US.png"> Flags
     </a>
     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
         <li>
             <a class="dropdown-item" href="#">
-                <img src="img/flags/DE.png"> Deutsch</a>
+                <img src="../assets/img/flags/DE.png"> Deutsch</a>
         </li>
         <li>
             <a class="dropdown-item" href="#">
-                <img src="img/flags/GB.png"> English(UK)</a>
+                <img src="../assets/img/flags/GB.png"> English(UK)</a>
         </li>
         <li>
             <a class="dropdown-item" href="#">
-                <img src="img/flags/FR.png"> Français</a>
+                <img src="../assets/img/flags/FR.png"> Français</a>
         </li>
         <li>
             <a class="dropdown-item" href="#">
-                <img src="img/flags/RO.png"> Română</a>
+                <img src="../assets/img/flags/RO.png"> Română</a>
         </li>
         <li>
             <a class="dropdown-item" href="#">
-                <img src="img/flags/IT.png"> Italiano</a>
+                <img src="../assets/img/flags/IT.png"> Italiano</a>
         </li>
         <li class="divider"></li>
         <li>
             <a class="dropdown-item" href="#">
-                <img src="img/flags/ES.png"> Español
+                <img src="../assets/img/flags/ES.png"> Español
                 <span class="label label-default">soon</span>
             </a>
         </li>
         <li>
             <a class="dropdown-item" href="#">
-                <img src="img/flags/BR.png"> Português
+                <img src="../assets/img/flags/BR.png"> Português
                 <span class="label label-default">soon</span>
             </a>
         </li>
         <li>
             <a class="dropdown-item" href="#">
-                <img src="img/flags/JP.png"> 日本語
+                <img src="../assets/img/flags/JP.png"> 日本語
                 <span class="label label-default">soon</span>
             </a>
         </li>
@@ -398,7 +398,7 @@ For more information please check [Full Github Documentation](http://www.jasny.n
 <h4><small>Regular Image</small></h4>
 <div class="fileinput fileinput-new text-center" data-provides="fileinput">
     <div class="fileinput-new thumbnail img-raised">
-        <img src="img/image_placeholder.jpg" alt="...">
+        <img src="../assets/img/image_placeholder.jpg" alt="...">
     </div>
     <div class="fileinput-preview fileinput-exists thumbnail img-raised"></div>
     <div>
@@ -414,7 +414,7 @@ For more information please check [Full Github Documentation](http://www.jasny.n
 <h4><small>Avatar</small></h4>
 <div class="fileinput fileinput-new text-center" data-provides="fileinput">
     <div class="fileinput-new thumbnail img-circle img-raised">
-        <img src="img/placeholder.jpg" alt="...">
+        <img src="../assets/img/placeholder.jpg" alt="...">
     </div>
     <div class="fileinput-preview fileinput-exists thumbnail img-circle img-raised"></div>
     <div>
@@ -429,7 +429,7 @@ For more information please check [Full Github Documentation](http://www.jasny.n
 
     <div class="fileinput fileinput-new text-center" data-provides="fileinput">
         <div class="fileinput-new thumbnail img-raised">
-            <img src="assets/img/image_placeholder.jpg" alt="...">
+            <img src="../assets/img/image_placeholder.jpg" alt="...">
         </div>
         <div class="fileinput-preview fileinput-exists thumbnail img-raised"></div>
         <div>
@@ -500,7 +500,7 @@ The classic Bootstrap Navbar was restyled:
            	        <span class="navbar-toggler-bar bar1"></span>
         	        <span class="navbar-toggler-bar bar2"></span>
         	        <span class="navbar-toggler-bar bar3"></span>
-     	        </button>    
+     	        </button>
             </div>
 
             <div class="collapse navbar-collapse">
@@ -1423,4 +1423,4 @@ You can change the default colors via variables from SASS:
 4. Press on compile and everything will be done automatically.
 
 <!-- Control Center for Now Ui Kit: parallax effects, scripts for the example pages etc -->
-<script src="js/now-ui-kit.js" type="text/javascript"></script>
+<script src="../assets/js/now-ui-kit.js" type="text/javascript"></script>
