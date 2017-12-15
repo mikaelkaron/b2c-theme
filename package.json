@@ -25,10 +25,11 @@
     "gulp": "^3.9.1",
     "gulp-metalsmith": "^1.1.0",
     "handlebars": "^4.0.11",
+    "metalsmith-discover-helpers": "^0.1.0",
+    "metalsmith-discover-partials": "^0.1.0",
     "metalsmith-layouts": "^1.8.1",
     "metalsmith-markdown": "^0.2.1",
     "metalsmith-permalinks": "^0.5.0",
-    "metalsmith-discover-helpers": "^0.1.0",
-    "metalsmith-discover-partials": "^0.1.0"
+    "metalsmith-relative-links": "^1.2.0"
   }
 }
