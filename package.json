@@ -1,0 +1,32 @@
+{
+  "name": "b2c-theme",
+  "version": "0.0.0",
+  "description": "![alt text](https://s3.amazonaws.com/creativetim_bucket/products/62/original/opt_nukp_thumbnail.jpg? \"Now UI Kit Pro\")",
+  "main": "index.html",
+  "directories": {
+    "doc": "docs",
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schoolapply/b2c-theme.git"
+  },
+  "author": "",
+  "license": "SEE LICENCE IN LICENCE.md",
+  "bugs": {
+    "url": "https://github.com/schoolapply/b2c-theme/issues"
+  },
+  "homepage": "https://github.com/schoolapply/b2c-theme#readme",
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-metalsmith": "^1.1.0",
+    "handlebars": "^4.0.11",
+    "metalsmith-layouts": "^1.8.1",
+    "metalsmith-markdown": "^0.2.1",
+    "metalsmith-permalinks": "^0.5.0"
+  }
+}
