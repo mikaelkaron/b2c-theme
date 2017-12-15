@@ -38,4 +38,4 @@ jobs:
 
       # store build output
       - store_artifacts:
-          path: /build
+          path: build
