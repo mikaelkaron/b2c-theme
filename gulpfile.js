@@ -7,6 +7,7 @@ const layouts = require('metalsmith-layouts');
 const partials = require('metalsmith-discover-partials');
 const helpers = require('metalsmith-discover-helpers');
 const links = require('metalsmith-relative-links');
+const ancestry = require('metalsmith-ancestry');
 
 gulp.task('clean', function () {
   return del('build');
@@ -27,6 +28,7 @@ gulp.task('metalsmith', [ 'clean' ], function() {
       },
       use: [
         markdown(),
+        ancestry(),
         links(),
         partials({
           directory: 'partials',

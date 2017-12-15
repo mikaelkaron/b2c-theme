@@ -25,6 +25,7 @@
     "gulp": "^3.9.1",
     "gulp-metalsmith": "^1.1.0",
     "handlebars": "^4.0.11",
+    "metalsmith-ancestry": "^1.4.0",
     "metalsmith-discover-helpers": "^0.1.0",
     "metalsmith-discover-partials": "^0.1.0",
     "metalsmith-layouts": "^1.8.1",
