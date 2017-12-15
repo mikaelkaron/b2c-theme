@@ -4,6 +4,8 @@ const metalsmith = require('gulp-metalsmith');
 const markdown = require('metalsmith-markdown');
 const permalinks = require('metalsmith-permalinks');
 const layouts = require('metalsmith-layouts');
+const partials = require('metalsmith-discover-partials');
+const helpers = require('metalsmith-discover-helpers');
 
 gulp.task('clean', function () {
   return del('build');
@@ -25,9 +27,16 @@ gulp.task('metalsmith', [ 'clean' ], function() {
       use: [
         markdown(),
         permalinks(),
+        partials({
+          directory: 'partials',
+          pattern: /\.html$/
+        }),
+        helpers({
+          directory: 'helpers',
+          pattern: /\.js$/
+        }),
         layouts({
-          engine: 'handlebars',
-          partials: 'partials'
+          engine: 'handlebars'
         })
       ]
     }))
