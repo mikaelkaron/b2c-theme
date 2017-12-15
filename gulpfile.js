@@ -2,11 +2,10 @@ const gulp = require('gulp');
 const del = require('del');
 const metalsmith = require('gulp-metalsmith');
 const markdown = require('metalsmith-markdown');
-const permalinks = require('metalsmith-permalinks');
 const layouts = require('metalsmith-layouts');
 const partials = require('metalsmith-discover-partials');
 const helpers = require('metalsmith-discover-helpers');
-const links = require('metalsmith-relative-links');
+const link = require('metalsmith-relative-links');
 const ancestry = require('metalsmith-ancestry');
 
 gulp.task('clean', function () {
@@ -29,7 +28,7 @@ gulp.task('metalsmith', [ 'clean' ], function() {
       use: [
         markdown(),
         ancestry(),
-        links(),
+        link(),
         partials({
           directory: 'partials',
           pattern: /\.html$/
