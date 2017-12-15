@@ -1,7 +1,6 @@
 const gulp = require('gulp');
 const del = require('del');
 const metalsmith = require('gulp-metalsmith');
-const markdown = require('metalsmith-markdown');
 const layouts = require('metalsmith-layouts');
 const partials = require('metalsmith-discover-partials');
 const helpers = require('metalsmith-discover-helpers');
@@ -26,7 +25,6 @@ gulp.task('metalsmith', [ 'clean' ], function() {
         scroll: 500
       },
       use: [
-        markdown(),
         ancestry(),
         link(),
         partials({
