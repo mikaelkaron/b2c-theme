@@ -3,7 +3,7 @@ layout: layout.html
 title: some title
 ---
 <div class="page-header page-header-small">
-  <div class="page-header-image" data-parallax="true" style="background-image: url('../assets/img/bg24.jpg') ;">
+  <div class="page-header-image" data-parallax="true" style="background-image: url('{{link.to '/assets/img/bg24.jpg'}}')">
   </div>
   <div class="content-center">
     <div class="row">
@@ -64,7 +64,7 @@ title: some title
       <div class="section-story-overview">
         <div class="row">
           <div class="col-md-6">
-            <div class="image-container image-left" style="background-image: url('../assets/img/bg35.jpg')">
+            <div class="image-container image-left" style="background-image: url('{{link.to '/assets/img/bg35.jpg'}}')">
               <!-- First image on the left side -->
               <p class="blockquote blockquote-primary">"Over the span of the satellite record, Arctic sea ice has been declining significantly, while sea ice in the
                 Antarctichas increased very slightly"
@@ -74,12 +74,12 @@ title: some title
               </p>
             </div>
             <!-- Second image on the left side of the article -->
-            <div class="image-container image-left-bottom" style="background-image: url('../assets/img/bg29.jpg')">
+            <div class="image-container image-left-bottom" style="background-image: url('{{link.to '/assets/img/bg29.jpg'}}')">
             </div>
           </div>
           <div class="col-md-5">
             <!-- First image on the right side, above the article -->
-            <div class="image-container image-right" style="background-image: url('../assets/img/project16.jpg')">
+            <div class="image-container image-right" style="background-image: url('{{link.to '/assets/img/project16.jpg'}}')">
             </div>
             <h3>So what does the new record for the lowest level of winter ice actually mean</h3>
             <p>The Arctic Ocean freezes every winter and much of the sea-ice then thaws every summer, and that process will
@@ -157,7 +157,7 @@ title: some title
               <div class="col-md-2">
                 <div class="card-avatar">
                   <a href="#pablo">
-                    <img class="img img-raised" src="../assets/img/mike.jpg">
+                    <img class="img img-raised" src="{{link.to '/assets/img/mike.jpg'}}">
                   </a>
                   <div class="ripple-container"></div>
                 </div>
@@ -185,7 +185,7 @@ title: some title
             <div class="media">
               <a class="pull-left" href="#pablo">
                 <div class="avatar">
-                  <img class="media-object img-raised" src="../assets/img/james.jpg" alt="..." />
+                  <img class="media-object img-raised" src="{{link.to '/assets/img/james.jpg'}}" alt="..." />
                 </div>
               </a>
               <div class="media-body">
@@ -209,7 +209,7 @@ title: some title
             <div class="media">
               <a class="pull-left" href="#pablo">
                 <div class="avatar">
-                  <img class="media-object img-raised" alt="Tim Picture" src="../assets/img/michael.jpg">
+                  <img class="media-object img-raised" alt="Tim Picture" src="{{link.to '/assets/img/michael.jpg'}}">
                 </div>
               </a>
               <div class="media-body">
@@ -230,7 +230,7 @@ title: some title
                 <div class="media">
                   <a class="pull-left" href="#pablo">
                     <div class="avatar">
-                      <img class="media-object img-raised" alt="64x64" src="../assets/img/julie.jpg">
+                      <img class="media-object img-raised" alt="64x64" src="{{link.to '/assets/img/julie.jpg'}}">
                     </div>
                   </a>
                   <div class="media-body">
@@ -257,7 +257,7 @@ title: some title
           <div class="media media-post">
             <a class="pull-left author" href="#pablo">
               <div class="avatar">
-                <img class="media-object img-raised" alt="64x64" src="../assets/img/olivia.jpg">
+                <img class="media-object img-raised" alt="64x64" src="{{link.to '/assets/img/olivia.jpg'}}">
               </div>
             </a>
             <div class="media-body">
@@ -286,7 +286,7 @@ title: some title
                 <div class="row">
                   <div class="col-md-5">
                     <div class="card-image">
-                      <img class="img img-raised rounded" src="../assets/img/examples/card-blog4.jpg">
+                      <img class="img img-raised rounded" src="{{link.to '/assets/img/examples/card-blog4.jpg'}}">
                     </div>
                   </div>
                   <div class="col-md-7">
@@ -329,8 +329,7 @@ title: some title
                   </div>
                   <div class="col-md-5">
                     <div class="card-image">
-                      <img class="img img-raised rounded
-                                        " src="../assets/img/examples/card-blog6.jpg">
+                      <img class="img img-raised rounded" src="{{link.to '/assets/img/examples/card-blog6.jpg'}}">
                     </div>
                   </div>
                 </div>
