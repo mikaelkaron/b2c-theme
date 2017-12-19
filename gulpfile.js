@@ -7,7 +7,7 @@ const partials = require('metalsmith-discover-partials');
 const helpers = require('metalsmith-discover-helpers');
 const link = require('metalsmith-relative-links');
 const ancestry = require('metalsmith-ancestry');
-const re = /([\"\'])~(.+?)\1/g;
+const re = /([\"\'])\^(.+?)\1/g;
 
 gulp.task('clean', () => {
   return del('build');
